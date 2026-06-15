@@ -14,7 +14,7 @@ informações_poke = []
 pokemon_name = str(input('Digite o nome do pokémon: '))
 pokemon_info = get_pokemon_info(pokemon_name)
 if pokemon_info:
-    print(f"Nome: {pokemon_info["name"].capitalize()}")
+    print(f"Nome: {pokemon_info['name'].capitalize()}")
     pk_ifo_name = str(pokemon_info['name'])
     informações_poke.append('Nome: ' + pk_ifo_name)
     
